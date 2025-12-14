@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lão Hạc – Nam Cao</title>
+
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300;500;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+
+<!-- Tailwind -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        primary: "#8B7355",
+        background: "#FDFBF7",
+        textmain: "#3E3832"
+      },
+      fontFamily: {
+        serif: ["Newsreader", "serif"],
+        sans: ["Inter", "sans-serif"]
+      }
+    }
+  }
+}
+</script>
+
+<style>
+body {
+  background: #FDFBF7;
+}
+</style>
+</head>
+
+<body class="font-sans text-textmain">
+
+<div class="max-w-md mx-auto min-h-screen bg-background shadow-xl">
+
+<!-- HEADER -->
+<div class="sticky top-0 bg-background/90 backdrop-blur px-6 py-4 flex justify-between">
+  <a href="index.html" class="material-symbols-outlined text-2xl">
+    arrow_back
+  </a>
+  <span class="material-symbols-outlined">
+    favorite_border
+  </span>
+</div>
+
+<!-- COVER -->
+<div class="px-6 pt-6 text-center">
+  <div class="w-40 mx-auto rounded-lg overflow-hidden shadow-lg">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/vi/4/44/Lao_Hac.jpg"
+      alt="Lão Hạc"
+      class="w-full h-full object-cover"
+    >
+  </div>
+
+  <h1 class="font-serif text-4xl mt-6 font-semibold">
+    Lão Hạc
+  </h1>
+  <p class="text-primary uppercase tracking-widest text-sm mt-1">
+    Nam Cao
+  </p>
+</div>
+
+<!-- INFO -->
+<div class="flex justify-center gap-10 mt-6 text-center">
+  <div>
+    <p class="text-xs text-gray-500">Năm</p>
+    <p class="font-serif text-lg">1943</p>
+  </div>
+  <div>
+    <p class="text-xs text-gray-500">Thể loại</p>
+    <p class="font-serif text-lg">Truyện ngắn</p>
+  </div>
+</div>
+
+<!-- QUOTE -->
+<div class="px-6 mt-10">
+  <div class="bg-white rounded-2xl p-6 shadow">
+    <p class="font-serif italic text-xl text-center">
+      “Cậu Vàng đi đời rồi, ông giáo ạ!”
+    </p>
+  </div>
+</div>
+
+<!-- INTRO -->
+<div class="px-6 mt-10">
+  <h2 class="font-serif text-2xl mb-4">
+    Giới thiệu
+  </h2>
+
+  <p class="text-gray-700 leading-7 text-justify">
+    <span class="float-left text-5xl font-serif text-primary mr-2">
+      L
+    </span>
+    ão Hạc là truyện ngắn tiêu biểu của Nam Cao, phản ánh bi kịch
+    của người nông dân Việt Nam trước Cách mạng. Nhân vật Lão Hạc
+    hiện lên với phẩm chất lương thiện, giàu tình thương nhưng
+    bị đói nghèo và xã hội tàn nhẫn dồn đến cái chết.
+  </p>
+</div>
+
+<!-- BUTTON -->
+<div class="px-6 my-10">
+  <button
+    class="w-full bg-[#3E3832] text-white py-4 rounded-xl text-lg hover:bg-black transition">
+    Bắt đầu đọc
+  </button>
+</div>
+
+</div>
+</body>
+</html>
